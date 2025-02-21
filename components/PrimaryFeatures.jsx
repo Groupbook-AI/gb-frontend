@@ -46,6 +46,13 @@ const features = [
     icon: DeviceTouchIcon,
     screen: InvestScreen,
   },
+  {
+    name: 'Save Money',
+    description:
+      'Guests save up to 50% off public rates, and Groupbook offers courtesy blocks or covers initial deposits for blocks with attrition.',
+    icon: DeviceTouchIcon,
+    screen: InvestScreen,
+  },
 ]
 
 function DeviceUserIcon(props) {

@@ -3,56 +3,57 @@ import { Container } from '@/components/Container'
 const faqs = [
   [
     {
-      question: 'Why is it so difficult to secure competitive hotel rates for my clients?',
+      question: 'How can Groupbook help me attract more events to my destination?',
       answer:
-        'Event planners often struggle with negotiating competitive rates due to limited leverage or a lack of direct connections with hotels. Groupbook simplifies this process by leveraging our extensive network to secure competitive rates, ensuring your clients receive the best options without the hassle.',
+        'Groupbook simplifies the booking process, making it easier for event planners to choose your destination for their events by offering streamlined accommodations and exclusive hotel deals.',
     },
     {
-      question: 'How can I ensure room availability during peak event times?',
+      question: 'How do I ensure a smooth booking experience for large groups visiting my destination?',
       answer:
-        'During high-demand periods, securing room availability can be a challenge. Groupbook works closely with hotels to prioritize group bookings, enabling you to lock in room blocks early and avoid last-minute surprises.',
+        'Groupbook’s platform allows you to manage room blocks and bookings for large groups, ensuring a seamless experience for event planners, attendees, and your local hotels.',
     },
     {
-      question: 'Why haven’t I been able to earn commissions on hotel bookings in the past?',
+      question: 'How can Groupbook improve the visibility of my destination to event planners?',
       answer:
-        'Many hotels don’t offer direct commissions or involve complex agreements. Groupbook automatically calculates and pays commissions on every booking, making it easy to get rewarded for your efforts without the extra hassle.',
-    },
-  ],
-  [
-    {
-      question: 'How do I handle last-minute changes or cancellations for my clients?',
-      answer:
-        'Last-minute changes or cancellations can be stressful, but Groupbook’s concierge team is here to help. We assist with modifications, ensuring seamless communication with hotels and minimizing disruptions to your event.',
-    },
-    {
-      question: 'Can I offer my clients added perks or benefits when booking through Groupbook?',
-      answer:
-        'Absolutely! Groupbook negotiates exclusive perks such as discounted rates, complimentary amenities, and additional services, all of which enhance your clients’ experience and reflect positively on your services.',
-    },
-    {
-      question: 'Is Groupbook suitable for all event sizes?',
-      answer:
-        'Yes! Whether you’re managing a small meeting or a large convention, Groupbook is designed to scale to meet the needs of any event, ensuring seamless booking for groups of any size.',
+        'By integrating Groupbook with your marketing strategy, you can provide event planners with a trusted booking platform, enhancing your destination’s appeal and visibility to a larger audience.',
     },
   ],
   [
     {
-      question: 'How do I track bookings made through Groupbook?',
+      question: 'Can I track bookings and hotel availability for multiple events at once?',
       answer:
-        'Groupbook provides an easy-to-use dashboard where you can track all bookings in real-time. You’ll be able to monitor room availability, payments, and confirmations, ensuring everything is on track for your event.',
+        'Yes, Groupbook provides an intuitive dashboard where you can monitor all hotel bookings across multiple events, ensuring room availability and preventing overbooking for your destination.',
     },
     {
-      question: 'How does Groupbook streamline the booking process for large events?',
+      question: 'How do I ensure hotels in my area offer competitive rates for events?',
       answer:
-        'Groupbook simplifies large event management by centralizing all bookings, room availability, and client preferences into one platform, ensuring smooth coordination and eliminating the hassle of juggling multiple systems.',
+        'Groupbook works with local hotels to negotiate group rates, ensuring competitive pricing for your destination while making it easier for event planners to secure accommodations.',
     },
     {
-      question: 'What makes Groupbook different from other booking platforms?',
+      question: 'Can Groupbook help with post-event feedback from visitors?',
       answer:
-        'Groupbook stands out by offering a tailored solution for event planners, sports teams, venues, and destination marketing organizations. Our platform is designed to simplify group bookings, save you time, and ensure competitive rates and availability.',
+        'Groupbook’s platform allows you to gather feedback from event planners and attendees, helping you measure satisfaction and improve future event coordination in your destination.',
+    },
+  ],
+  [
+    {
+      question: 'What kind of support does Groupbook offer to event planners using my destination?',
+      answer:
+        'Groupbook provides event planners with dedicated concierge support, ensuring a seamless booking experience for their events and helping them manage logistics more effectively.',
+    },
+    {
+      question: 'How can I offer exclusive deals to attract events to my destination?',
+      answer:
+        'By partnering with Groupbook, you can offer exclusive perks such as discounted hotel rates, amenities, and added services to event planners, making your destination more attractive for bookings.',
+    },
+    {
+      question: 'Can I manage room blocks across multiple hotels in my area?',
+      answer:
+        'Yes, Groupbook allows you to manage room blocks across multiple hotels in your destination, offering a flexible solution for event organizers and large groups needing accommodations.',
     },
   ],
 ];
+
 
 
 export function Faqs() {
